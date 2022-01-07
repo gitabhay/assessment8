@@ -1,0 +1,86 @@
+body{
+    background-color: yellow;
+}
+
+
+.h1{
+    text-align: center;
+}
+
+.conatiner2{
+    list-style-type: decimal;
+    position: relative;
+   margin-left: 500px;
+
+}
+
+
+.box{
+    background-color: darkgreen;
+    width: 100px;
+    height:100px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border: 2px solid black;
+}
+.item1{
+    transition: width  ;
+}
+.item1:hover {
+width: 300px; 
+} 
+
+.item2{
+    transition:  height 5s, width 5s ;
+}
+.item2:hover {
+height: 300px;
+width: 300px;
+}
+
+.item3{
+    transition: width 2s  linear;
+}
+.item3:hover {
+    width: 300px;
+}
+
+.item4{
+    transition: width 2s ease;
+}
+.item4:hover {
+    width: 300px;
+}
+
+.item5{
+    transition: width 2s ease-in;
+}
+.item5:hover {
+   
+    width: 300px;
+}
+
+.item6{
+    transition: width 2s ease-out;
+}
+.item6:hover {
+    width: 300px;
+}
+
+.item7{
+    transition: width 2s ease-in-out;
+}
+.item7:hover {   
+    width: 300px;
+} 
+
+.back{
+    text-align: center;
+    color: black;
+}
+
+.next{
+    display: inline;
+    text-align: center;
+    color: coral;
+}
