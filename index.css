@@ -34,7 +34,7 @@ body{
     }
     to
     {
-    transform: skewx(-20deg); 
+    transform: skewX(-20deg); 
     }
 }
 
@@ -51,7 +51,7 @@ body{
     }
     to
     {
-    transform: skewx(-20deg); 
+    transform: skewX(-20deg); 
     }
 }
 
@@ -67,7 +67,7 @@ body{
     }
     to
     {
-    transform: skewx(-20deg); 
+    transform: skewX(-20deg); 
     }
 }
 
@@ -178,13 +178,13 @@ background:white;
 .item10{
   
     background: orangered;
-  animation-name: vary;
+  animation-name: abhay;
   animation-duration: 3s;
   animation-iteration-count: infinite;
 
 
 }
-@keyframes vary {
+@keyframes abhay {
     0%{
         transform:rotateX(50deg);  
     }
@@ -195,13 +195,13 @@ background:white;
 .item11{
   
     background:white;
-  animation-name: vary1;
+  animation-name: kumar;
   animation-duration: 3s;
   animation-iteration-count: infinite;
 
 
 }
-@keyframes vary1 {
+@keyframes kumar {
     0%{
         transform:rotateY(60deg);  
     }
@@ -212,15 +212,15 @@ background:white;
 .item12{
   
     background:green;
-  animation-name: vary2;
+  animation-name: gangwar;
   animation-duration: 3s;
   animation-iteration-count: infinite;
 
 
 }
-@keyframes vary2 {
+@keyframes gangwar {
     0%{
-        transform:rotate(40deg);  
+        transform:rotateZ(40deg);  
     }
     100%{
         transform:rotateZ(-40deg);
